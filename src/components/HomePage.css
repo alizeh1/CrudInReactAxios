@@ -1,0 +1,102 @@
+/* center code */
+/* .flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.MainContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+
+    .SubContainer {
+        height: fit-content;
+        width: 100px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0, 10px, 10px rgba(0, 0, 0, 0.22);
+        margin: 20px auto;
+
+
+        .Box1 {
+            width: 500%;
+            height: 250px;
+            border: 0.5px solid lightgrey;
+            box-sizing: border-box;
+            background-color: white;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 99px;
+            margin-left: -225px;
+
+
+            .Input-Container {
+                width: 80%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .Flex-Container {
+                    width: 80%;
+                    margin: 5px;
+                }
+
+                .Flex-Button {
+                    margin: 15px auto;
+                }
+
+            }
+
+        }
+
+        .Box2 {
+            width: 497px;
+            margin-left: -224px;
+            margin-top: 3px;
+            height: fit-content;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+            background-color: white;
+            flex-direction: column;
+        
+
+            .data-Flex {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                border-bottom: 0.5px solid lightgray;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+
+                .UserId {
+                    flex: 5;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .Username {
+                    flex: 15;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Age{
+                    flex: 15;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Update{
+                    flex: 2;
+                    margin: 6px 5px;
+                }
+            }
+        }
+    }
+}
